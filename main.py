@@ -51,7 +51,6 @@ if __name__ == "__main__":
         proxies_available.clear
         proxy_test()
         for i in range(21):
-            print(proxies_available)
             set_random_timer()
             web_req()
             i=+1
